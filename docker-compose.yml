@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  heartbleed:
+    container_name: heartbleed-box
+    build: ./entorno
+
+    ports:
+      - "4433:4433"
+    networks:
+      tfgnet:
+        ipv4_address: 172.22.0.2
+    tty: true
+
+  ubuntu:
+    container_name: ubuntu
+    build: ./ubuntu
+
+    networks:
+      tfgnet:
+        ipv4_address: 172.22.0.3
+    volumes:
+      - /home/heartbleed:/home
+    tty: true
+
+
+networks:
+  tfgnet:
+    ipam:
+      config:
+        - subnet: 172.22.0.0/16
