@@ -1,4 +1,4 @@
-# Simulación Ataque Heartbleed
+# Ataque Heartbleed
 
 Este proyecto está diseñado para simular el ataque Heartbleed, un fallo de seguridad crítico en OpenSSL que permite a un atacante obtener información sensible de la memoria del servidor. Este simulador se utiliza con fines educativos para demostrar cómo funciona el ataque y no debe ser usado para actividades maliciosas.
 
