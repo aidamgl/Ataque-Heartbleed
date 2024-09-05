@@ -36,3 +36,6 @@ El ataque Heartbleed se basa en un fallo en la implementación de la extensión 
    Con el inicio de sesión simulado, ahora ejecuta el exploit en Python para realizar el ataque Heartbleed:
    ```bash
    python3 exploit.py
+## Referencias
+
+Este trabajo se basa en el código original del repositorio [heartbleed-box](https://github.com/jknudsen-synopsys/heartbleed-box/tree/main).
