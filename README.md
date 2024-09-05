@@ -22,7 +22,7 @@ El ataque Heartbleed se basa en un fallo en la implementación de la extensión 
 1. Ejecuta el siguiente comando para iniciar ambas imágenes:
    ```bash
    docker-compose up
-
+   ```
    Esto iniciará los contenedores necesarios para la simulación
 2. Accede al contenedor Ubuntu
    Abre una nueva terminal y ejecuta el siguiente comando para acceder al contenedor en ejecución Ubuntu:
